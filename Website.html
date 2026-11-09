@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang  = "en">
+<head>
+    <meta charset=" UTF-8">
+    <meta name ="viewport" content=" width= device-width, initial-scale= 1.0">
+    <title> class chat</title>
+</head>
+<body>
+    <main class="chat">
+        <!-- header : title + who is sending + clear button-->
+        <he class=" chat-header">
+        <h1> class chat</h1>
+        <div class=" controls">
+        <label for ="user-select"> send as</label>
+        <select id ="user-select">
+        <option value=" Ana"> Ana</option>
+        <option value="Ben">Ben</option>
+    </select>
+    <button id ="btn" type=" button" class=" ghost"> clear chat</button>
+</div>
+        </header>
+        <!-- messages are added here by + send  button-->
+        <form id="message" class="composer" aria-autocomplete="off">
+        <label for="message-form" class="visually-hidden">message</label>
+        <input id="message-input" type="text" placeholder="type a message"
+        <button type="submit"> Send</button>
+        </form>
